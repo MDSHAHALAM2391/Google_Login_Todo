@@ -73,7 +73,7 @@ function Dashboard() {
       course,
       city,
     };
-    setData([...data, allCred]);
+    setData([allCred, ...data]);
     setName("");
     setCourse("");
     setCity("");
